@@ -1,4 +1,4 @@
-# Cookiecutter Template for Plone Modules by Seantis
+# Cookiecutter Template for Seantis Plone Modules
 
 A cookiecutter template for Plone Modules, the Seantis way.
 
