@@ -1,0 +1,4 @@
+<layers>
+    <layer name="{{ cookiecutter.package_name }}"
+           interface="{{ cookiecutter.package_name}}.interfaces.I{{ cookiecutter.package_name.split('.') | map('capitalize') | join('') }}Specific" />
+</layers>
