@@ -7,7 +7,7 @@
     <!-- Default Profile -->
     <genericsetup:registerProfile 
         name="default"
-        title="{{ cookiecutter.full_name }}"
+        title="{{ cookiecutter.package_name.split('.') | map('capitalize') | join(' ') }}"
         description="{{ cookiecutter.description }}"
         directory="profiles/default"
         provides="Products.GenericSetup.interfaces.EXTENSION"

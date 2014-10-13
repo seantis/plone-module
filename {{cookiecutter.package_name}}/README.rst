@@ -1,5 +1,5 @@
-{{ cookiecutter.full_name }}
-{{ "=" * cookiecutter.full_name.__len__() }}
+{{ cookiecutter.package_name.split('.') | map('capitalize') | join(' ') }}
+{{ "=" * cookiecutter.package_name.__len__() }}
 
 {{ cookiecutter.description }}
 

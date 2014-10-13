@@ -1,7 +1,6 @@
 {
     "package_name": "seantis.package",
-    "full_name": "Seantis Package",
-    "description": "Seantis Package is a Package by Seantis",
+    "description": "Seantis Package is a Package by Seantis.",
     "author": "Seantis GmbH",
     "author_email": "info@seantis.ch"
 }
