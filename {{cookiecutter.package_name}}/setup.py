@@ -8,7 +8,7 @@ name = '{{ cookiecutter.package_name }}'
 description = (
     '{{ cookiecutter.description }}'
 )
-version = '0.1'
+version = '0.0.1'
 
 requirements = [
     'Plone>=4.3',
