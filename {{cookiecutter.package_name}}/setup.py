@@ -25,6 +25,7 @@ test_requirements = [
     'mock'
 ]
 
+
 def get_long_description():
     readme = open('README.rst').read()
     history = open(os.path.join('docs', 'HISTORY.rst')).read()
@@ -48,7 +49,7 @@ setup(
     ],
     keywords='{{ cookiecutter.package_name }} plone',
     author='{{ cookiecutter.author }}',
-    author_email='{{ cookiecutter.author }}',
+    author_email='{{ cookiecutter.author_email }}',
     url='https://github.com/seantis/{{ cookiecutter.package_name }}',
     license='GPLv2',
     packages=find_packages(exclude=['ez_setup']),
@@ -65,4 +66,3 @@ setup(
     target = plone
     """
 )
-
